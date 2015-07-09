@@ -43,6 +43,8 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'casperjs'
+
 group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
