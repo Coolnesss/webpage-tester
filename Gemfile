@@ -43,3 +43,12 @@ group :development, :test do
   gem 'spring'
 end
 
+group :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'rspec-its'
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
+end
