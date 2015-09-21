@@ -4,6 +4,9 @@ class SubmissionsController < ApplicationController
   # GET /submissions
   # GET /submissions.json
   def index
+
+    @lol = `bundle exec rspec`
+
     @submissions = Submission.all
   end
 
